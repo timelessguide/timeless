@@ -1,0 +1,30 @@
+# Site Settings
+title: Timeless Guide
+description: Clear guidance for planning ahead.
+baseurl: "" # Leave empty if hosting at username.github.io
+url: "https://timelessguide.github.io"
+
+# Navigation Links
+nav_links:
+  - title: Read
+    url: /read/
+  - title: Prepare
+    url: /prepare/
+  - title: Use
+    url: /use/
+  - title: About
+    url: /about/
+  - title: FAQ
+    url: /faq/
+  - title: Contact
+    url: /contact/
+
+# Build settings
+markdown: kramdown
+theme: minima # Or leave blank if using your custom CSS
+
+plugins:
+  - jekyll-sitemap
+
+
+google_analytics: G-5R7TR7WCS3

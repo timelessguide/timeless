@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | Timeless Guide</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+    {% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+    </script>
+    {% endif %}
+
+</head>
+
+<body class="{{ page.color_theme }}">
+    <header class="site-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="{{ '/' | relative_url }}" class="site-logo">
+                    {{ site.title | replace: "Guide", "<em>Guide</em>" }}
+                </a>
+            </div>
+            <ul class="nav-links">
+                {% for link in site.nav_links %}
+                    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <button id="backToTop" title="Go to top">
+        <span class="arrow">↑</span> Top
+    </button>
+
+    <footer class="site-footer">
+        <nav class="footer-nav">
+            <ul class="nav-links">
+                {% for link in site.nav_links %}
+                    <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+
+        <div class="footer-socials">
+            <a href="https://pinterest.com/yourhandle" target="_blank">Pinterest</a>
+            <a href="https://facebook.com/yourhandle" target="_blank">Facebook</a>
+            <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>
+            <a href="https://bsky.app/profile/yourhandle" target="_blank">Bluesky</a>
+        </div>
+
+        <p class="copyright">&copy; {{ "now" | date: "%Y" }} Timeless Guide by Timeless Tributes</p>
+
+
+    </footer>
+
+    <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
+    <script>
+    window.onload = function() {
+        const btn = document.getElementById("backToTop");
+
+        window.onscroll = function() {
+            // Show button after scrolling 300px
+            if (window.pageYOffset > 300) {
+                btn.classList.add("show");
+            } else {
+                btn.classList.remove("show");
+            }
+        };
+
+        btn.onclick = function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        };
+    };
+    </script>
+
+</body>
+</html>
