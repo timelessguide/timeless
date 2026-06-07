@@ -7,7 +7,7 @@ url: "https://www.timelessguide.com"
 # Navigation Links
 nav_links:
   - title: Read
-    url: /read/
+    url: /read
   - title: Prepare
     url: /prepare/
   - title: Use
