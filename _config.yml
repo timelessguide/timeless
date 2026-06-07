@@ -9,15 +9,15 @@ nav_links:
   - title: Read
     url: /read
   - title: Prepare
-    url: /prepare/
+    url: /prepare
   - title: Use
-    url: /use/
+    url: /use
   - title: About
-    url: /about/
+    url: /about
   - title: FAQ
-    url: /faq/
+    url: /faq
   - title: Contact
-    url: /contact/
+    url: /contact
 
 # Build settings
 markdown: kramdown
