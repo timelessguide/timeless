@@ -21,7 +21,7 @@ nav_links:
 
 # Build settings
 markdown: kramdown
-theme: minima # Or leave blank if using your custom CSS
+# theme: minima # Or leave blank if using your custom CSS
 
 plugins:
   - jekyll-sitemap

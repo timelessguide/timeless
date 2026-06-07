@@ -30,7 +30,7 @@ layout: default
                 <img src="{{ item.thumbnail | relative_url }}" alt="">
             </div>
             <div class="card-info">
-                <h3>{{ item.title }}</h3>
+                <h3><a href="{{ item.url | relative_url }}" style="text-decoration:none; color:inherit;">{{ item.title }}</a></h3>
                 <p>{{ item.excerpt }}</p>
                 {% if item.type == 'read' %}
                     <a href="{{ item.url | relative_url }}" class="btn-sage">Read more →</a>
@@ -73,12 +73,12 @@ layout: default
                 {% endfor %}
             </div>
 
-            <div class="filter-grid">
+            <div class="filter-list">
                 {% for item in site.posts %}
                     {% if item.category == page.category %} {% unless item.featured == true %}
                             <div class="filter-item {% for tag in item.tags %}{{ tag | slugify }} {% endfor %}">
                                 <a href="{% if item.type == 'read' %}{{ item.url | relative_url }}{% else %}{{ item.pdf_url | relative_url }}{% endif %}" class="topic-link">
-                                    <span class="topic-type">[{{ item.type | capitalize }}]</span>
+                                    <span class="topic-type">{{ item.type | capitalize }}</span>
                                     <span class="topic-title">{{ item.title }}</span>
                                 </a>
                             </div>
@@ -120,4 +120,3 @@ layout: default
 <footer class="archive-footer-content">
         {{ content }}
     </footer>
-</div> ```
