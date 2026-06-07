@@ -268,14 +268,131 @@ em {
 
 /* --- Responsive Styling --- */
 @media (max-width: 768px) {
-    .hero, .card-grid, .comparison-grid, .bio-section {
-        grid-template-columns: 1fr;
+
+    /* --- Navigation --- */
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 20px;
+        padding: 0;
+    }
+
+    .nav-links li {
+        font-size: 0.85rem;
+    }
+
+    /* --- Homepage layout --- */
+    .hero {
         flex-direction: column;
         text-align: center;
+        padding: 40px 20px;
     }
-    
-    .nav-links {
-        display: none; /* Usually you'd add a hamburger menu here */
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .comparison-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bio-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .bio-image img {
+        width: 180px;
+    }
+
+    /* --- Archive / Read page --- */
+    .horizontal-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .card-thumb {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .card-thumb img {
+        width: 100%;
+        max-height: 180px;
+        object-fit: cover;
+    }
+
+    .btn-sage {
+        float: none;
+        display: inline-block;
+        margin-top: 12px;
+    }
+
+    /* --- Post / Article pages --- */
+    .post-title {
+        font-size: 2rem;
+    }
+
+    .post-featured-image img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .post-navigation {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .nav-box, .nav-box.next {
+        width: 100%;
+        text-align: left;
+    }
+
+    /* --- About page --- */
+    .about-values {
+        grid-template-columns: 1fr;
+    }
+
+    /* --- Use / Product page --- */
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* --- Global image safety --- */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .card-body img {
+        width: 100%;
+        max-width: 160px;
+    }
+
+    /* --- Filter grid on Read page --- */
+    .filter-grid {
+        grid-template-columns: 1fr;
     }
 }
 
