@@ -10,5 +10,5 @@ description: Free starting points for organizing what your loved ones will need 
 
 <div class="support-box">
     <p>All resources here are free.</p>
-    <p>If you’d like to support the ongoing work, you can <a href="https://ko-fi.com/yourusername" target="_blank" class="kofi-link">do so here</a>.</p>
+    <p>If you’d like to support the ongoing work, you can <a href="https://ko-fi.com/timelessguide" target="_blank" class="kofi-link">do so here</a>.</p>
 </div>

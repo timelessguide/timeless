@@ -19,7 +19,7 @@ products:
   - title: "Additional Guides"
     price: "$10 - $25"
     description: "Optional guides with structured templates for specific life situations and family structures."
-    best_for: "people navigating different realities — including caregiving, chosen family, living abroad, business ownership, or identity-specific considerations."
+    best_for: "people navigating different realities - including caregiving, chosen family, living abroad, business ownership, or identity-specific considerations."
     image: assets/images/addon-kit.png
     link: "https://etsy.com/your-listing-2"
     button_text: "Browse guides"
@@ -29,7 +29,7 @@ products:
     description: "The full Timeless Tributes collection on Etsy."
     best_for: ""
     image: assets/images/all-guides.png
-    link: "https://etsy.com/your-shop"
+    link: "https://timelessguide.etsy.com"
     button_text: "Visit the shop"
 ---
 
