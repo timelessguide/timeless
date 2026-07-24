@@ -321,6 +321,7 @@ em {
 }
 
 /* --- Footer --- */
+.site-footer {
     padding: 60px 0;
     border-top: 1px solid var(--border-soft);
     text-align: center;
