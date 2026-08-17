@@ -9,11 +9,11 @@ description: Structured templates and tools for end-of-life planning. Organize y
 
 products:
   - title: "Core Planning Kit"
-    price: "$39"
+    price: "$29"
     description: "The foundational guide for organizing your wishes, documents, and important details in one place."
     best_for: "anyone who wants a clear starting point."
     image: assets/images/core-kit.png
-    link: "https://etsy.com/your-listing-1"
+    link: "https://www.etsy.com/listing/4556857732/comprehensive-end-of-life-planning"
     button_text: "View details"
 
   - title: "Additional Guides"
@@ -21,7 +21,7 @@ products:
     description: "Optional guides with structured templates for specific life situations and family structures."
     best_for: "people navigating different realities - including caregiving, chosen family, living abroad, business ownership, or identity-specific considerations."
     image: assets/images/addon-kit.png
-    link: "https://etsy.com/your-listing-2"
+    link: "https://www.etsy.com/shop/TimelessGuide?ref=shop_profile&listing_id=4556857732&section_id=59887487"
     button_text: "Browse guides"
 
   - title: "All Planning Resources"
