@@ -3,7 +3,7 @@ layout: post
 title: "Your Digital Afterlife: How to Organize Passwords and Accounts for Loved Ones"
 category: articles
 type: read
-tags: [End-of-Life Planning, Online Legacy]
+tags: [End-of-Life Planning, Digital Legacy]
 color_theme: theme-read
 excerpt: "From email to social media, make sure your digital life doesn't become a puzzle for the people you care about."
 ---

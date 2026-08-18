@@ -3,7 +3,7 @@ layout: post
 title: "Why Next of Kin Is a Dangerous Term"
 category: articles
 type: read
-tags: [End-of-Life Planning, Relationships]
+tags: [End-of-Life Planning, Family Communication]
 color_theme: theme-read
 excerpt: "The person who loves you most has no legal right to make decisions for you - unless you've put it in writing."
 ---
